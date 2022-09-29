@@ -10,20 +10,17 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Hi there, I'm <GradientText>Robin</GradientText> 👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
-          </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
-          </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          Not just some rando on the internet, but, some guy I guess.
+          <em> Some spice of optimistic nihilism that I've got </em> 😆. The
+          important part of all is I like{' '}
+          <span className="text-cyan-400">making </span>
+          stuffs.
+          <em> (sometimes breaking too, cuz why not LMAO).</em>
         </>
       }
       avatar={
@@ -36,30 +33,24 @@ const Hero = () => (
       }
       socialButtons={
         <>
-          <a href="/">
+          <a href="https://twitter.com/Robin_Panta" target="_blank">
             <HeroSocial
               src="/assets/images/twitter-icon.png"
               alt="Twitter icon"
             />
           </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/facebook-icon.png"
-              alt="Facebook icon"
-            />
-          </a>
-          <a href="/">
+          <a href="https://linkedin.com/in/robinpanta" target="_blank">
             <HeroSocial
               src="/assets/images/linkedin-icon.png"
               alt="Linkedin icon"
             />
           </a>
-          <a href="/">
+          {/* <a href="/">
             <HeroSocial
               src="/assets/images/youtube-icon.png"
               alt="Youtube icon"
             />
-          </a>
+          </a> */}
         </>
       }
     />
